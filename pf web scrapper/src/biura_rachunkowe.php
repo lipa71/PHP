@@ -66,7 +66,7 @@
 
         if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
             include('simple_html_dom.php');
-            include('linki/biura_rachunkowe/biura_kujawsko-pomorskie.php');
+            include('linki/biura_rachunkowe/biura_kujawskopomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
             foreach ($biura_kujawskopomorskie as $link) {
