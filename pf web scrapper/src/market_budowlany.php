@@ -8,7 +8,7 @@
 </head>
 <body>
     <center>
-        <h1>Materiały budowlane</h1>
+        <h1>Market budowlany</h1>
         <form method="POST">
             <select name="region">
                 <option value="" disabled selected>--Wybierz region--</option>
@@ -40,10 +40,10 @@
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'dolnośląskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_dolnośląskie.php');
+            include('linki/market_budowlany/market_budowlany_dolnośląskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_dolnośląskie as $link) {
+            foreach ($market_budowlany_dolnośląskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -72,18 +72,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_dolnośląskie.csv', 'w');
-            file_put_contents('materiały_budowlane_dolnośląskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_dolnośląskie.csv', 'w');
+            file_put_contents('market_budowlany_dolnośląskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_kujawskopomorskie.php');
+            include('linki/market_budowlany/market_budowlany_kujawskopomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_kujawskopomorskie as $link) {
+            foreach ($market_budowlany_kujawskopomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -112,18 +112,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_kujawskopomorskie.csv', 'w');
-            file_put_contents('materiały_budowlane_kujawskopomorskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_kujawskopomorskie.csv', 'w');
+            file_put_contents('market_budowlany_kujawskopomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'lubelskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_lubelskie.php');
+            include('linki/market_budowlany/market_budowlany_lubelskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_lubelskie as $link) {
+            foreach ($market_budowlany_lubelskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -152,18 +152,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_lubelskie.csv', 'w');
-            file_put_contents('materiały_budowlane_lubelskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_lubelskie.csv', 'w');
+            file_put_contents('market_budowlany_lubelskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'lubuskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_lubuskie.php');
+            include('linki/market_budowlany/market_budowlany_lubuskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_lubuskie as $link) {
+            foreach ($market_budowlany_lubuskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -192,18 +192,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_lubuskie.csv', 'w');
-            file_put_contents('materiały_budowlane_lubuskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_lubuskie.csv', 'w');
+            file_put_contents('market_budowlany_lubuskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'łódzkie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_łódzkie.php');
+            include('linki/market_budowlany/market_budowlany_łódzkie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_łódzkie as $link) {
+            foreach ($market_budowlany_łódzkie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -232,18 +232,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_łódzkie.csv', 'w');
-            file_put_contents('materiały_budowlane_łódzkie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_łódzkie.csv', 'w');
+            file_put_contents('market_budowlany_łódzkie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'małopolskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_małopolskie.php');
+            include('linki/market_budowlany/market_budowlany_małopolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_małopolskie as $link) {
+            foreach ($market_budowlany_małopolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -272,18 +272,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_małopolskie.csv', 'w');
-            file_put_contents('materiały_budowlane_małopolskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_małopolskie.csv', 'w');
+            file_put_contents('market_budowlany_małopolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'mazowieckie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_mazowieckie.php');
+            include('linki/market_budowlany/market_budowlany_mazowieckie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_mazowieckie as $link) {
+            foreach ($market_budowlany_mazowieckie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -312,18 +312,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_mazowieckie.csv', 'w');
-            file_put_contents('materiały_budowlane_mazowieckie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_mazowieckie.csv', 'w');
+            file_put_contents('market_budowlany_mazowieckie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'opolskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_opolskie.php');
+            include('linki/market_budowlany/market_budowlany_opolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_opolskie as $link) {
+            foreach ($market_budowlany_opolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -352,18 +352,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_opolskie.csv', 'w');
-            file_put_contents('materiały_budowlane_opolskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_opolskie.csv', 'w');
+            file_put_contents('market_budowlany_opolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'podkarpackie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_podkarpackie.php');
+            include('linki/market_budowlany/market_budowlany_podkarpackie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_podkarpackie as $link) {
+            foreach ($market_budowlany_podkarpackie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -392,18 +392,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_podkarpackie.csv', 'w');
-            file_put_contents('materiały_budowlane_podkarpackie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_podkarpackie.csv', 'w');
+            file_put_contents('market_budowlany_podkarpackie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'podlaskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_podlaskie.php');
+            include('linki/market_budowlany/market_budowlany_podlaskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_podlaskie as $link) {
+            foreach ($market_budowlany_podlaskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -432,18 +432,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_podlaskie.csv', 'w');
-            file_put_contents('materiały_budowlane_podlaskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_podlaskie.csv', 'w');
+            file_put_contents('market_budowlany_podlaskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'pomorskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_pomorskie.php');
+            include('linki/market_budowlany/market_budowlany_pomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_pomorskie as $link) {
+            foreach ($market_budowlany_pomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -472,18 +472,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_pomorskie.csv', 'w');
-            file_put_contents('materiały_budowlane_pomorskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_pomorskie.csv', 'w');
+            file_put_contents('market_budowlany_pomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'śląskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_śląskie.php');
+            include('linki/market_budowlany/market_budowlany_śląskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_śląskie as $link) {
+            foreach ($market_budowlany_śląskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -512,18 +512,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_śląskie.csv', 'w');
-            file_put_contents('materiały_budowlane_śląskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_śląskie.csv', 'w');
+            file_put_contents('market_budowlany_śląskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_świętokrzyskie.php');
+            include('linki/market_budowlany/market_budowlany_świętokrzyskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_świętokrzyskie as $link) {
+            foreach ($market_budowlany_świętokrzyskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -552,18 +552,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_świętokrzyskie.csv', 'w');
-            file_put_contents('materiały_budowlane_świętokrzyskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_świętokrzyskie.csv', 'w');
+            file_put_contents('market_budowlany_świętokrzyskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_warmińskomazurskie.php');
+            include('linki/market_budowlany/market_budowlany_warmińskomazurskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_warmińskomazurskie as $link) {
+            foreach ($market_budowlany_warmińskomazurskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -592,18 +592,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_warmińsko-mazurskie.csv', 'w');
-            file_put_contents('materiały_budowlane_warmińsko-mazurskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_warmińsko-mazurskie.csv', 'w');
+            file_put_contents('market_budowlany_warmińsko-mazurskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'wielkopolskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_wielkopolskie.php');
+            include('linki/market_budowlany/market_budowlany_wielkopolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_wielkopolskie as $link) {
+            foreach ($market_budowlany_wielkopolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -632,18 +632,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_wielkopolskie.csv', 'w');
-            file_put_contents('materiały_budowlane_wielkopolskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_wielkopolskie.csv', 'w');
+            file_put_contents('market_budowlany_wielkopolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
             include('simple_html_dom.php');
-            include('linki/materiały_budowlane/materiały_budowlane_zachodniopomorskie.php');
+            include('linki/market_budowlany/market_budowlany_zachodniopomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($materiały_budowlane_zachodniopomorskie as $link) {
+            foreach ($market_budowlany_zachodniopomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -672,8 +672,8 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('materiały_budowlane_zachodnio-pomorskie.csv', 'w');
-            file_put_contents('materiały_budowlane_zachodnio-pomorskie.csv',$wynik_array3);
+            $file = fopen('market_budowlany_zachodnio-pomorskie.csv', 'w');
+            file_put_contents('market_budowlany_zachodnio-pomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 
