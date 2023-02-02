@@ -25,6 +25,16 @@
         <a href="src/rekuperacje.php">rekuperacje</a>
         <br>
         <a href="src/instalacje.php">instalacje</a>
+        <br>
+        <a href="src/artykuły_metalowe_sprzedaż.php">artykuły metalowe sprzedaż</a>
+        <br>
+        <a href="src/sprzedaż_detaliczna_wyrobów_metalowych.php">sprzedaż detaliczna wyrobów metalowych</a>
+        <br>
+        <a href="src/metalowe_artykuły_detal.php">metalowe artykuły detal</a>
+        <br>
+        <a href="src/sprzedaż_wyrobów_metalowych.php">sprzedaż wyrobów metalowych</a>
+        <br>
+        <a href="src/materiały_budowlane.php">materiały budowlane</a>
     </center>
 </body>
 </html>
