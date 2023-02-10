@@ -37,6 +37,8 @@
         <a href="src/materiały_budowlane.php">materiały budowlane</a>
         <br>
         <a href="src/market_budowlany.php">market budowlany</a>
+        <br>
+        <a href="src/artykuły_rolnicze.php">artykuły rolnicze</a>
     </center>
 </body>
 </html>
