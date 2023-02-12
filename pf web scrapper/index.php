@@ -39,6 +39,12 @@
         <a href="src/market_budowlany.php">market budowlany</a>
         <br>
         <a href="src/artykuły_rolnicze.php">artykuły rolnicze</a>
+        <br>
+        <a href="src/energia_odnawialna.php">energia odnawialna</a>
+        <br>
+        <a href="src/serwis_i_instalacja_klimatyzacji.php">serwis i instalacja klimatyzacji</a>
+        <br>
+        <a href="src/instalacja_i_serwis_ogrzewania.php">instalacja i serwis ogrzewania</a>
     </center>
 </body>
 </html>
