@@ -1,5 +1,5 @@
 <?php
-$instalacje_malopolskie = array (
+$instalacje_małopolskie = array (
 'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,swoszowice,my%C5%9Blenicka,133/vero_sp.j.-sfwart_fhd.html',
 'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,krowodrza,bydgoska,6/tomix_zsuzsanna_szostak-srnacd_foc.html',
 'https://panoramafirm.pl/ma%C5%82opolskie,nowos%C4%85decki,podegrodzie,193a/baz_pal-sbdgne_nkz.html',

@@ -29,13 +29,25 @@
             $wynik_array = [];
             foreach ($fotowoltaika as $link) {
                 $html = file_get_html($link);
+                $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
-                if($email == null){
+                $nazwa_firmy = $html->find('h1[class="pt-3 font-weight-bold"]', 0);
+                $tel_str = $telefon->plaintext;
+
+                if($email == null && $tel_str === 'Oceń firmę i napisz o niej opinię:'){
                     continue;
-                }else {
-                    $wynik = $email->plaintext;
-                    array_push($wynik_array, $wynik);
+                }elseif($email == null && $telefon == null){
+                    continue;
                 }
+                if($email == null) {
+                    $email = ' ';
+                }
+                if($telefon === 'Oceń firmę i napisz o niej opinię:' || $telefon == null){
+                    $telefon= ' ';
+                }
+
+                $wynik = $nazwa_firmy->plaintext . '#' . $email->plaintext . '#' .  $telefon->plaintext;
+                    array_push($wynik_array, $wynik);
             }
 
             $wynik_array2 = array_unique($wynik_array);

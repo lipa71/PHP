@@ -1,5 +1,5 @@
 <?php
-$instalacje_slaskie = array (
+$instalacje_śląskie = array (
 'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,gliwice,s%C5%82onecznikowa,7/pompy_ciepla._klimatyzacje._ogrzewanie_podlogowe_t._drygajlo-sfptcd_gct.html',
 'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,jastrz%C4%99bie_zdr%C3%B3j,energetyk%C3%B3w,38/ekosolar_sp._z_o.o.-srtnmh_kh.html',
 'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,bytom,wycz%C3%B3%C5%82kowskiego,2_12/cieplo_centrum-scexff_mzs.html',

@@ -1,5 +1,5 @@
 <?php
-$instalacje_swietokrzyskie = array (
+$instalacje_świętokrzyskie = array (
 'https://panoramafirm.pl/%C5%9Bwi%C4%99tokrzyskie,buski,busko_zdr%C3%B3j,poprzeczna,1/eltrakon_komputery_wojciech_p._kowalczyk-sfntgp_ko.html',
 'https://panoramafirm.pl/%C5%9Bwi%C4%99tokrzyskie,,kielce,hilarego_mali,16/hitech._s.j._kmiecicki_a._krol_m.-sflkfa_rwc.html',
 'https://panoramafirm.pl/%C5%9Bwi%C4%99tokrzyskie,,kielce,warszawska,34a_paw._12/kaltex_ppu_sp._z_o._o.-schbdx_bn.html',

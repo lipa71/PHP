@@ -8,7 +8,7 @@
 </head>
 <body>
     <center>
-        <h1>Instalacje</h1>
+        <h1>Informatyka</h1>
         <form method="POST">
             <select name="region">
                 <option value="" disabled selected>--Wybierz region--</option>
@@ -40,10 +40,10 @@
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'dolnośląskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_dolnośląskie.php');
+            include('linki/informatyka/informatyka_dolnośląskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_dolnośląskie as $link) {
+            foreach ($informatyka_dolnośląskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -72,18 +72,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_dolnośląskie.csv', 'w');
-            file_put_contents('instalacje_dolnośląskie.csv',$wynik_array3);
+            $file = fopen('informatyka_dolnośląskie.csv', 'w');
+            file_put_contents('informatyka_dolnośląskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_kujawskopomorskie.php');
+            include('linki/informatyka/informatyka_kujawskopomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_kujawskopomorskie as $link) {
+            foreach ($informatyka_kujawskopomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -112,18 +112,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_kujawskopomorskie.csv', 'w');
-            file_put_contents('instalacje_kujawskopomorskie.csv',$wynik_array3);
+            $file = fopen('informatyka_kujawskopomorskie.csv', 'w');
+            file_put_contents('informatyka_kujawskopomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'lubelskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_lubelskie.php');
+            include('linki/informatyka/informatyka_lubelskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_lubelskie as $link) {
+            foreach ($informatyka_lubelskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -152,18 +152,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_lubelskie.csv', 'w');
-            file_put_contents('instalacje_lubelskie.csv',$wynik_array3);
+            $file = fopen('informatyka_lubelskie.csv', 'w');
+            file_put_contents('informatyka_lubelskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'lubuskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_lubuskie.php');
+            include('linki/informatyka/informatyka_lubuskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_lubuskie as $link) {
+            foreach ($informatyka_lubuskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -192,18 +192,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_lubuskie.csv', 'w');
-            file_put_contents('instalacje_lubuskie.csv',$wynik_array3);
+            $file = fopen('informatyka_lubuskie.csv', 'w');
+            file_put_contents('informatyka_lubuskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'łódzkie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_łódzkie.php');
+            include('linki/informatyka/informatyka_łódzkie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_łódzkie as $link) {
+            foreach ($informatyka_łódzkie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -232,18 +232,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_łódzkie.csv', 'w');
-            file_put_contents('instalacje_łódzkie.csv',$wynik_array3);
+            $file = fopen('informatyka_łódzkie.csv', 'w');
+            file_put_contents('informatyka_łódzkie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'małopolskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_małopolskie.php');
+            include('linki/informatyka/informatyka_małopolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_małopolskie as $link) {
+            foreach ($informatyka_małopolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -272,18 +272,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_małopolskie.csv', 'w');
-            file_put_contents('instalacje_małopolskie.csv',$wynik_array3);
+            $file = fopen('informatyka_małopolskie.csv', 'w');
+            file_put_contents('informatyka_małopolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'mazowieckie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_mazowieckie.php');
+            include('linki/informatyka/informatyka_mazowieckie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_mazowieckie as $link) {
+            foreach ($informatyka_mazowieckie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -312,18 +312,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_mazowieckie.csv', 'w');
-            file_put_contents('instalacje_mazowieckie.csv',$wynik_array3);
+            $file = fopen('informatyka_mazowieckie.csv', 'w');
+            file_put_contents('informatyka_mazowieckie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'opolskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_opolskie.php');
+            include('linki/informatyka/informatyka_opolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_opolskie as $link) {
+            foreach ($informatyka_opolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -352,18 +352,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_opolskie.csv', 'w');
-            file_put_contents('instalacje_opolskie.csv',$wynik_array3);
+            $file = fopen('informatyka_opolskie.csv', 'w');
+            file_put_contents('informatyka_opolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'podkarpackie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_podkarpackie.php');
+            include('linki/informatyka/informatyka_podkarpackie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_podkarpackie as $link) {
+            foreach ($informatyka_podkarpackie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -392,18 +392,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_podkarpackie.csv', 'w');
-            file_put_contents('instalacje_podkarpackie.csv',$wynik_array3);
+            $file = fopen('informatyka_podkarpackie.csv', 'w');
+            file_put_contents('informatyka_podkarpackie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'podlaskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_podlaskie.php');
+            include('linki/informatyka/informatyka_podlaskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_podlaskie as $link) {
+            foreach ($informatyka_podlaskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -432,18 +432,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_podlaskie.csv', 'w');
-            file_put_contents('instalacje_podlaskie.csv',$wynik_array3);
+            $file = fopen('informatyka_podlaskie.csv', 'w');
+            file_put_contents('informatyka_podlaskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'pomorskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_pomorskie.php');
+            include('linki/informatyka/informatyka_pomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_pomorskie as $link) {
+            foreach ($informatyka_pomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -472,18 +472,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_pomorskie.csv', 'w');
-            file_put_contents('instalacje_pomorskie.csv',$wynik_array3);
+            $file = fopen('informatyka_pomorskie.csv', 'w');
+            file_put_contents('informatyka_pomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'śląskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_śląskie.php');
+            include('linki/informatyka/informatyka_śląskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_śląskie as $link) {
+            foreach ($informatyka_śląskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -512,18 +512,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_śląskie.csv', 'w');
-            file_put_contents('instalacje_śląskie.csv',$wynik_array3);
+            $file = fopen('informatyka_śląskie.csv', 'w');
+            file_put_contents('informatyka_śląskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_świętokrzyskie.php');
+            include('linki/informatyka/informatyka_świętokrzyskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_świętokrzyskie as $link) {
+            foreach ($informatyka_świętokrzyskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -552,18 +552,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_świętokrzyskie.csv', 'w');
-            file_put_contents('instalacje_świętokrzyskie.csv',$wynik_array3);
+            $file = fopen('informatyka_świętokrzyskie.csv', 'w');
+            file_put_contents('informatyka_świętokrzyskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_warmińskomazurskie.php');
+            include('linki/informatyka/informatyka_warmińskomazurskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_warmińskomazurskie as $link) {
+            foreach ($informatyka_warmińskomazurskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -592,18 +592,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_warmińsko-mazurskie.csv', 'w');
-            file_put_contents('instalacje_warmińsko-mazurskie.csv',$wynik_array3);
+            $file = fopen('informatyka_warmińsko-mazurskie.csv', 'w');
+            file_put_contents('informatyka_warmińsko-mazurskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'wielkopolskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_wielkopolskie.php');
+            include('linki/informatyka/informatyka_wielkopolskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_wielkopolskie as $link) {
+            foreach ($informatyka_wielkopolskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -632,18 +632,18 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_wielkopolskie.csv', 'w');
-            file_put_contents('instalacje_wielkopolskie.csv',$wynik_array3);
+            $file = fopen('informatyka_wielkopolskie.csv', 'w');
+            file_put_contents('informatyka_wielkopolskie.csv',$wynik_array3);
             fclose($file);      
         }
 
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
             include('simple_html_dom.php');
-            include('linki/instalacje/instalacje_zachodniopomorskie.php');
+            include('linki/informatyka/informatyka_zachodniopomorskie.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($instalacje_zachodniopomorskie as $link) {
+            foreach ($informatyka_zachodniopomorskie as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -672,8 +672,8 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('instalacje_zachodnio-pomorskie.csv', 'w');
-            file_put_contents('instalacje_zachodnio-pomorskie.csv',$wynik_array3);
+            $file = fopen('informatyka_zachodnio-pomorskie.csv', 'w');
+            file_put_contents('informatyka_zachodnio-pomorskie.csv',$wynik_array3);
             fclose($file);      
         }
 

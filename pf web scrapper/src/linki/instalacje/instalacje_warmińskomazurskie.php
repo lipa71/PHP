@@ -1,5 +1,5 @@
 <?php
-$instalacje_warminskomazurskie = array (
+$instalacje_warmińskomazurskie = array (
 'https://panoramafirm.pl/warmi%C5%84sko_mazurskie,e%C5%82cki,e%C5%82k,podmiejska,5_110/thermo_vitae_s.c._pomcy_ciepla_ogrzewanie_podlogowe_rekuperacja-sbsgro_mzs.html',
 'https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,lubelska,44/jsp_energy_sp._z_o.o.-srftfw_jub.html',
 'https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olecki,%C5%9Blepie,10_10/uslugi_elektryczne_rafal_dzwil-sfegzz_jub.html',

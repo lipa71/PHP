@@ -1,5 +1,5 @@
 <?php
-$instalacje_lodzkie = array (
+$instalacje_łódzkie = array (
 'https://panoramafirm.pl/%C5%82%C3%B3dzkie,kutnowski,grodno,3/serwis_domowy_inz._piotr_glowczynski-sfjrhx_mzs.html',
 'https://panoramafirm.pl/%C5%82%C3%B3dzkie,kutnowski,grodno,3/serwis_domowy_inz._piotr_glowczynski-sfidwr_lfo.html',
 'https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,widzew,cz%C4%99stochowska,38_52/zaklad_uslug_inzynierskich_inrel_sp._z_o.o._sp.k.-scmybr_jfk.html',

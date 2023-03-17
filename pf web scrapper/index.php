@@ -42,9 +42,19 @@
         <br>
         <a href="src/energia_odnawialna.php">energia odnawialna</a>
         <br>
+        <a href="src/energia_słoneczna.php">energia słoneczna</a>
+        <br>
         <a href="src/serwis_i_instalacja_klimatyzacji.php">serwis i instalacja klimatyzacji</a>
         <br>
         <a href="src/instalacja_i_serwis_ogrzewania.php">instalacja i serwis ogrzewania</a>
+        <br>
+        <a href="src/hydraulika.php">hydraulika</a>
+        <br>
+        <a href="src/instalacje_hydrauliczne.php">instalacje hydrauliczne</a>
+        <br>
+        <a href="src/ogrzewanie.php">ogrzewanie</a>
+        <br>
+        <a href="src/informatyka.php">informatyka</a>
     </center>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-    $pompy_ciepla = array (
+    $pompy_ciepła = array (
         'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,ruda_%C5%9Bl%C4%85ska,pasieczna,8/eko_sept_klimatyzacja_pompy_ciepla_fotowoltaika-sfects_lfo.html',
 'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,ruda_%C5%9Bl%C4%85ska,pasieczna,8/eko_sept_klimatyzacja_pompy_ciepla_fotowoltaika-sfectp_cs.html',
 'https://panoramafirm.pl/%C5%82%C3%B3dzkie,kutnowski,grodno,3/serwis_domowy_inz._piotr_glowczynski-sfjrhx_mzs.html',

@@ -1,5 +1,5 @@
 <?php
-$instalacje_dolnoslaskie = array (
+$instalacje_dolnośląskie = array (
 'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,krzyki,a._vivaldiego,56_9/manufaktura_wroclawska_tomasz_olszewski-sfxmlc_arj.html',
 'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,fabryczna,dolnobrzeska,26_4/instalacje_elektryczne_jolanta_bujak-sfwccn_jub.html',
 'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,legnica,makuszy%C5%84skiego,4/piotr_kubacki_odkurzacz-sfuefj_iwz.html',
