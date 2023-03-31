@@ -55,6 +55,20 @@
         <a href="src/ogrzewanie.php">ogrzewanie</a>
         <br>
         <a href="src/informatyka.php">informatyka</a>
+        <br>
+        <a href="src/gospodarstwo_rolne.php">gospodarstwo rolne</a>
+        <br>
+        <a href="src/agroturystyka.php">agroturystyka</a>
+        <br>
+        <a href="src/ferma_drobiu.php">ferma drobiu</a>
+        <br>
+        <a href="src/produkcja_tkanin.php">produkcja tkanin</a>
+        <br>
+        <a href="src/mrożonki.php">mrożonki</a>
+        <br>
+        <a href="src/tekstylia.php">tekstylia</a>
+        <br>
+        <a href="src/sala_bankietowa.php">sala bankietowa</a>
     </center>
 </body>
 </html>

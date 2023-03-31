@@ -1,0 +1,23 @@
+<?php
+$tekstylia_mazowieckie = array (
+"https://panoramafirm.pl/mazowieckie,,warszawa,ursyn%C3%B3w,pasa%C5%BC_ursynowski,3_12/ms_dekor_s.c.-sbarcj_nhs.html",
+"https://panoramafirm.pl/mazowieckie,m%C5%82awski,m%C5%82awa,3_maja,18/slodkie_sny_ewelina_sowinska-sftlah_ifk.html",
+"https://panoramafirm.pl/mazowieckie,%C5%BCuromi%C5%84ski,%C5%BCuromin,targowa,3b/mood_home_halina_karwosinska-sfkuwu_jbf.html",
+"https://panoramafirm.pl/mazowieckie,pruszkowski,piast%C3%B3w,orzeszkowej,11/lady_bo_import_export_g._witkowska-scgzak_hbr.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,targ%C3%B3wek,bajeczna,2/piotr_gazarkiewicz_zaklad_tapicerski-sfllcn_nzi.html",
+"https://panoramafirm.pl/mazowieckie,wo%C5%82omi%C5%84ski,marki,z%C4%85bkowska,40/poldekor_wyposazenie_wnetrz-sbdjpf_nho.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,wawer,dusznicka,8/mamaja_haft_komputerowy_naszywki_aplikacje-srfcst_hic.html",
+"https://panoramafirm.pl/mazowieckie,piaseczy%C5%84ski,%C5%82azy,elegancka,6_1/kemmax_dywany-sfyksb_jyk.html",
+"https://panoramafirm.pl/mazowieckie,legionowski,legionowo,marysie%C5%84ki,6_lok._50/abc_gastronomia_i_tekstylia_karolina_zdunczyk-zajama_roe.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,rembieli%C5%84ska,6_lok._156/e_tekstylia_celina_wieczorkowska-zdlpbn_azt.html",
+"https://panoramafirm.pl/mazowieckie,p%C5%82ocki,chlebowo,18/exclusive_tekstylia_domowe_justyna_grzelak-zdxgxe_azt.html",
+"https://panoramafirm.pl/mazowieckie,wo%C5%82omi%C5%84ski,zielonka,pustelnicka,16a/kinga_flaga_swiat_tekstyliow-zdziuh_azt.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,bielany,lektykarska,26/kinga_lachowska_swiat_tekstyliow-zysejy_azt.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,wawer,heliotrop%C3%B3w,1/przedsiebiorstwo_handlu_tekstyliami_sp._z_o.o.-aibtcy_ipw.html",
+"https://panoramafirm.pl/mazowieckie,,radom,marii_fo%C5%82tyn,2a/radomskie_tekstylia_przemyslowe_sp._z_o.o.-azwmfb_igu.html",
+"https://panoramafirm.pl/mazowieckie,p%C5%82o%C5%84ski,p%C5%82o%C5%84sk,przemys%C5%82owa,1b/rika_tekstylia_sp._z_o.o.-zwayfm_hdx.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,%C5%9Br%C3%B3dmie%C5%9Bcie,fabryczna,4_lok._7/tekstylia_import_export_michal_kalinowski-zcoezj_i.html",
+"https://panoramafirm.pl/mazowieckie,wo%C5%82omi%C5%84ski,wo%C5%82omin,ko%C5%9Bcielna,29/tekstylia_domowe_hurt_detal_tomasz_kurek-zszsbi_ifk.html",
+"https://panoramafirm.pl/mazowieckie,,warszawa,mokot%C3%B3w,st%C4%99pi%C5%84ska,22_30/tekstylia_w_domu_kwartalnik_redakcja-oypzog_zko.html",
+)
+?>

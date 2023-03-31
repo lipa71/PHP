@@ -1,0 +1,21 @@
+<?php
+$sala_bankietowa_wielkopolskie = array (
+"https://panoramafirm.pl/wielkopolskie,koni%C5%84ski,w%C4%99glew_kolonia,bukowa,14/niagara_phu_tomasz_szymanski-sfuied_ahg.html",
+"https://panoramafirm.pl/wielkopolskie,pleszewski,pleszew,rynek,10/warsztat_smaku_paula_bartczak_kolodziejczak-sryamd_ln.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,tarnowo_podg%C3%B3rne,zachodnia,3/bankietowa_strzelnica-sfshuz_ln.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,tarnowo_podg%C3%B3rne,zachodnia,3/bankietowa_strzelnica-scioce_ain.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,lubo%C5%84,traugutta,27/gardenia_kwiaciarnia_mariola_jendrysiak-sfxkxx_soo.html",
+"https://panoramafirm.pl/wielkopolskie,koni%C5%84ski,rybie,35/zacisze_lesne_agroturystyka_organizacja_imprez_okolicznosciowych-sfylgk_aswnu.html",
+"https://panoramafirm.pl/wielkopolskie,ostrzeszowski,szklarka_przygodzicka,101/osrodek_rekreacyjno_wypoczynkowy_cegielki-srkcjg_ahg.html",
+"https://panoramafirm.pl/wielkopolskie,turecki,turek,kaczki_%C5%9Brednie,10c/finezja_sala_bankietowa-amgjrs_fn.html",
+"https://panoramafirm.pl/wielkopolskie,,leszno,strzelecka,11/finezja_sala_bankietowa_i_catering_s.c.regina_ratajczak_miroslaw_ratajczak-ajsaus_bkp.html",
+"https://panoramafirm.pl/wielkopolskie,jaroci%C5%84ski,jaraczewo,kolejowa,18/k_&_m_glinkowscy_sala_bankietowa-afnhyx_ain.html",
+"https://panoramafirm.pl/wielkopolskie,w%C4%85growiecki,%C5%82ekno,pa%C5%82ucka,23/marek_szpis_sala_bankietowa_slowianka-axksxk_fn.html",
+"https://panoramafirm.pl/wielkopolskie,krotoszy%C5%84ski,orla,13/perla_s.c._sala_bankietowa_marlena_frackowiak_sebastian_matuszak_orla_13_63_720_kozmin_wlkp.-anceoh_ain.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,lubo%C5%84,przy_autostradzie,9/sala_bankietowa_lacerta_mgr_elzbieta_kecel-acomih_ain.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,tarnowo_podg%C3%B3rne,zachodnia,3/sala_bankietowa_strzelnica-abknlh_fn.html",
+"https://panoramafirm.pl/wielkopolskie,leszczy%C5%84ski,roj%C4%99czyn,50/sala_weselna_wesele_sala_bankietowa_kontrabas-zsbmmy_ain.html",
+"https://panoramafirm.pl/wielkopolskie,koni%C5%84ski,kazimier%C3%B3w,33/sale_bankietowe_michal_jedro-ztwruz_roe.html",
+"https://panoramafirm.pl/wielkopolskie,pozna%C5%84ski,zakrzewo,gajowa,5/szqlarnia_sala_weselno_bankietowa_paulina_andrzejewska-zxiger_i.html",
+)
+?>

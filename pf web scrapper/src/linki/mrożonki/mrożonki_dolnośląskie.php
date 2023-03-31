@@ -1,0 +1,22 @@
+<?php
+$mrożonki_dolnośląskie = array (
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wa%C5%82brzych,wysockiego,17/hurtownia_warzyw_i_owocow_barbara_kacprzak-sflhit_sgd.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,jelenia_g%C3%B3ra,miarki,18/augusto_limaro_sp.j.-ptckl_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,krzyki,goetla,11a/cassie_polska_sp._z_o.o.-afmmgj_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,dzier%C5%BConiowski,tuszyn,1/danstal_daniel_winnicki-zwysna_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,g%C3%B3rowski,s%C5%82aw%C4%99cice,35/dora_firma_produkcyjno_handlowa-kcdwa_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,krzyki,przyja%C5%BAni,4_c_6/eko_walmar_sp._z_o.o.-ahlbtb_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,jelenia_g%C3%B3ra,kozia,4/empanada_wyroby_garmazeryjne-odgspb_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,%C5%9Bredzki,kr%C4%99pice,spacerowa,8/eskimos_firma_produkcyjno_handlowa_hurtownia_lodow-mbrjs_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,%C5%9Br%C3%B3dmie%C5%9Bcie,orzeszkowej,48_lok._3/jomar_smereka_marek-atouge_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,%C5%9Bwidnicki,%C5%9Bwidnica,wokulskiego,14/lechtom_tomasz_sikocinski-kmkrk_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,jelenia_g%C3%B3ra,pl._niepodleg%C5%82o%C5%9Bci,2a/morsik_sp._z_o.o.-ptgig_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,g%C5%82ogowski,g%C5%82og%C3%B3w,boles%C5%82awa_wysokiego,11/pawelkiewicz_urszula_hurtownia_artykulow_spozywczych-abzuhe_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,%C5%9Bwidnicki,%C5%9Bwiebodzice,sienna,7/phu_sajmon_plus_wojciech_basta-oecueh_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,fabryczna,mi%C5%84ska,38/polgroup_trading_sp._z_o.o.-aajrax_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,zgorzelecki,rusz%C3%B3w,ii_armii_wojska_polskiego,10/runex_marek_marcisiak-azdbbg_suh.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,wroc%C5%82awski,radwanice,wroc%C5%82awska,23/kmp_sp._z_o.o.-sfxneg_ld.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,ole%C5%9Bnicki,ole%C5%9Bnica,boles%C5%82awa_krzywoustego,31_a/iskra_sp.j._firma_handlowa_hurtownia_mrozonek-nweuj_suk.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,ole%C5%9Bnicki,%C5%9Bliz%C3%B3w,93/renata_idzikowska_hurtownia_mrozonek_sniezynka-nyjzy_pup.html",
+)
+?>

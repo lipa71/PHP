@@ -1,0 +1,21 @@
+<?php
+$sala_bankietowa_dolnośląskie = array (
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,psie_pole,kominiarska,33/sleep_sp._z_o.o.-sfjppa_ahg.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,krzyki,krakowska,100/zaklete_rewiry-sfpalm_aswff.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,milicki,cieszk%C3%B3w,boles%C5%82awa_chrobrego,18/dworek_cieszkow_kamila_kontek-sfxldb_ain.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,z%C5%82otoryjski,z%C5%82otoryja,wyszy%C5%84skiego,7/sala_bankietowa-agsatr_fn.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,boles%C5%82awiecki,boles%C5%82awiec,jana_paw%C5%82a_ii,38c/sala_bankietowa-scjyn_fn.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,karkonoski,szklarska_por%C4%99ba,okrzei,1_b/hotel_na_skarpie-sfsghb_ahg.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,k%C5%82odzki,polanica_zdr%C3%B3j,zdrojowa,34a/nowy_zdroj._centrum_zdrowia_i_wypoczynku-sbxjax_ahg.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,fabryczna,grabiszy%C5%84ska,9/a_kwiaty.pl_kwiaty_wience_z_dostawa-sfpwfp_soo.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,fabryczna,grabiszy%C5%84ska,9/ikwiaty.pl_kwiaciarnia_internetowa-sfpyoc_pyc.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,karkonoski,szklarska_por%C4%99ba,kasprowicza,13f/dom_pod_koziolkami-scojix_abi.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,ole%C5%9Bnicki,cie%C5%9Ble,47/hotel_amber-sfsjrk_ahg.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,dzier%C5%BConiowski,bielawa,szkolna,4/andrzej_gnojek_palast_sala_bankietowa-zssjtm_i.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,trzebnicki,%C5%BCmigr%C3%B3d,rybacka,4/anna_sala_bankietowa-zgeeiy_fn.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,ole%C5%9Bnicki,bierut%C3%B3w,polna,1a/artemida_sala_bankietowa-zbiyxg_fn.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,lubi%C5%84ski,lubin,sk%C5%82odowskiej_curie,80/magnat_sala_bankietowa-agkdzk_fn.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,z%C4%85bkowicki,starcz%C3%B3wek,77a/sala_bankietowa_u_georgea-muzms_cx.html",
+"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,%C5%9Bredzki,proszk%C3%B3w,73/tratoria_sala_bankietowa-ahkkta_ain.html",
+)
+?>

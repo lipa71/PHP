@@ -1,0 +1,23 @@
+<?php
+$agroturystyka_łódzkie = array (
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,podd%C4%99bicki,uniej%C3%B3w,ko%C5%9Bcielnicka,132/cichy_zakatek_gospodarstwo_agroturystyczne_jacek_kurpik-scsnaw_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,pabianicka,184/ago_dar_sp._z_o.o.-ajrstd_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,podd%C4%99bicki,napoleon%C3%B3w,6_7/aneta_ostrowska_napoleonska_zagroda-zhkphz_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,g%C3%B3rna,kosynier%C3%B3w_gdy%C5%84skich,18/f.h._nikon_anna_landowska-atgpgy_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,podd%C4%99bicki,siedl%C4%85tk%C3%B3w,19/gospodarstwo_agroturystyczne_lesna_dolina-akozah_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,%C5%82%C4%99g_r%C4%99czy%C5%84ski,45/kalicki_robert_s.c._agroturystyka-aghtjm_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,wielu%C5%84ski,drobnice,82/kalina_s.c._osrodek_wypoczynkowy-ajrjwu_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,wilkoszewice,22/krzysztof_robaszek-zlkzsx_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,polesie,p%C5%82ugowa,10/siodemka_wielobranzowa_spoldzielnia_socjalna-atjfxo_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,skierniewicki,budy_grabskie/sosenka_s.c._mierzejewska_magdalena_przedsiebiorstwo_turystyczne-aiwilt_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,bogus%C5%82awice,17/sulikowska_maria_gospodarstwo_agroturystyczne-kacbt_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,podd%C4%99bicki,brudn%C3%B3w_stary,5/tartak_gospodarstwo_agroturystyczne-afraed_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,wieruszowski,chr%C3%B3%C5%9Bcin,2/tuz_ryszard_agroturystyka-tnclg_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,zdu%C5%84skowolski,g%C3%B3ry_prusinowskie,20/wawrzyniak_jaroslaw_gospodarstwo_agroturystyczne-afftnf_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,sulej%C3%B3w,rycerska,27/wynajem_pokoi-arhihj_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,%C5%82owicki,%C5%82owicz,zamkowa,1/zamek_agroturystyka_wojciech_mikolaj_gronecki-zsbxsr_aswnu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,be%C5%82chatowski,parzno/agroturystyka_przysiolek_kresy_paulina_pilinska-zlhiig_abi.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,wielu%C5%84ski,za%C5%82%C4%99cze_ma%C5%82e,30/agroturystyka_irmina_stec-zyiocl_i.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,uniej%C3%B3w,siedl%C4%85tk%C3%B3w,4/mile_chwile_stanislaw_kwiatkowski_agroturystyka-zxdduu_aup.html",
+)
+?>
