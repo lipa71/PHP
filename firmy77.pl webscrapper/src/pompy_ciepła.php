@@ -31,11 +31,18 @@
                 $html = file_get_html($link);
                 $nazwa_firmy = $html->find('h1[class="m0 p0 tal fw9"]', 0);
                 $email = $html->find('p a[href^=mailto]', 0);
-                if($email == null) continue;
                 $telefon = $html->find('p a[href^=tel:]', 0);
-                if($telefon == null) continue;
-                $email2 = preg_replace('/mailto:/', '', preg_replace('/tabelaFirmaLinkmailto:/', '', implode($email->attr)));
-                $telefon2 = preg_replace('/tel:/', '', preg_replace('/tabelaFirmaLinktel:/', '', implode($telefon->attr)));
+                if($email == null) {
+                    $email2 = " ";
+                    $telefon2 = preg_replace('/tel:/', '', preg_replace('/tabelaFirmaLinktel:/', '', implode($telefon->attr)));
+                }elseif($telefon == null) {
+                    $telefon2 = " ";
+                    $email2 = preg_replace('/mailto:/', '', preg_replace('/tabelaFirmaLinkmailto:/', '', implode($email->attr)));
+                }else {
+                    $telefon2 = preg_replace('/tel:/', '', preg_replace('/tabelaFirmaLinktel:/', '', implode($telefon->attr)));
+                    $email2 = preg_replace('/mailto:/', '', preg_replace('/tabelaFirmaLinkmailto:/', '', implode($email->attr)));
+                }
+                
                 $wynik = $nazwa_firmy->plaintext . '#' . $email2 . '#' .  $telefon2;
                     array_push($wynik_array, $wynik);
             }

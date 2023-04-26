@@ -8,7 +8,7 @@
 </head>
 <body>
     <center>
-        <h1>Fotowoltaika</h1>
+        <h1>instalacje_hydrauliczne</h1>
         <form method="POST">
             <select name="region">
                 <option value="" disabled selected>--Wybierz region--</option>
@@ -24,10 +24,10 @@
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'cała_Polska'){
             include('simple_html_dom.php');
-            include('linki/fotowoltaika/fotowoltaika.php');
+            include('linki/instalacje_hydrauliczne/instalacje_hydrauliczne.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($fotowoltaika as $link) {
+            foreach ($instalacje_hydrauliczne as $link) {
                 $html = file_get_html($link);
                 $nazwa_firmy = $html->find('h1[class="m0 p0 tal fw9"]', 0);
                 $email = $html->find('p a[href^=mailto]', 0);
@@ -53,8 +53,8 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('fotowoltaika.csv', 'w');
-            file_put_contents('fotowoltaika.csv',$wynik_array3);
+            $file = fopen('instalacje_hydrauliczne.csv', 'w');
+            file_put_contents('instalacje_hydrauliczne.csv',$wynik_array3);
             fclose($file);      
         }
         ?>
