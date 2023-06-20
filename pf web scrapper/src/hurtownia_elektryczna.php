@@ -8,7 +8,7 @@
 </head>
 <body>
     <center>
-        <h1>Sprzedaż wyrobów metalowych</h1>
+        <h1>hurtownia_elektryczna</h1>
         <form method="POST">
             <select name="region">
                 <option value="" disabled selected>--Wybierz region--</option>
@@ -24,10 +24,10 @@
         $region = $_POST['region'];
         if(isset($_POST['submit']) && $region === 'cała_Polska'){
             include('simple_html_dom.php');
-            include('linki/sprzedaż_wyrobów_metalowych/sprzedaż_wyrobów_metalowych.php');
+            include('linki/hurtownia_elektryczna/hurtownia_elektryczna.php');
             set_time_limit(0);
             $wynik_array = [];
-            foreach ($sprzedaż_wyrobów_metalowych as $link) {
+            foreach ($hurtownia_elektryczna as $link) {
                 $html = file_get_html($link);
                 $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
                 $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -56,8 +56,8 @@
                 $wynik_array3.=$value. "\n";
             }
 
-            $file = fopen('sprzedaż_wyrobów_metalowych.csv', 'w');
-            file_put_contents('sprzedaż_wyrobów_metalowych.csv',$wynik_array3);
+            $file = fopen('hurtownia_elektryczna.csv', 'w');
+            file_put_contents('hurtownia_elektryczna.csv',$wynik_array3);
             fclose($file);      
         }
         ?>

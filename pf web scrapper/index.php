@@ -38,6 +38,12 @@
         <br>
         <a href="src/informatyka.php">informatyka</a>
         <br>
+        <a href="src/hurtownia_fotowoltaika.php">hurtownia fotowoltaika</a>
+        <br>
+        <a href="src/hurtownia_bhp.php">hurtownia bhp</a>
+        <br>
+        <a href="src/hurtownia_elektryczna.php">hurtownia elektryczna</a>
+        <br>
     </center>
 </body>
 </html>
