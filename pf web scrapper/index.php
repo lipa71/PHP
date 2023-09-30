@@ -44,6 +44,10 @@
         <br>
         <a href="src/hurtownia_elektryczna.php">hurtownia elektryczna</a>
         <br>
+        <a href="src/ocieplenia.php">ocieplenia</a>
+        <br>
+        <a href="src/elewacje.php">elewacje</a>
+        <br>
     </center>
 </body>
 </html>

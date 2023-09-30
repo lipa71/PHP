@@ -1,0 +1,21 @@
+<?php
+$ocieplenia_łódzkie = [
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,pabianicki,pabianice,warszawska,27_2/andar_tynki_maszynowe-schlbi_pn.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,%C5%82owicki,be%C5%82ch%C3%B3w,kili%C5%84skiego,14/jed_mar_pphu_marek_wysocki-srifns_jbb.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,kutnowski,soko%C5%82%C3%B3wek,81/unico_tynk_jaros_maciej-scwnxz_pn.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,kos%C3%B3w,g%C5%82%C3%B3wna,20/firma_ogolnobudowlana_damian_kopanski-sgzwug_je.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,dobrenice,34/rafal_ryszka_uslugi_ogolnobudowlane-sgolfj_jhh.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,zdu%C5%84skowolski,zdu%C5%84ska_wola,d%C4%85browskiego,3_7/dekar_blach_uslugi_dekarsko_blacharskie_krzysztof_walocha-sbysbm_jbu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,be%C5%82chatowski,po%C5%BCd%C5%BCenice,5/doktor_daszek_uslugi_dekarskie-sfjjwp_jii.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,%C5%82aski,%C5%82ask,stefana_batorego,11_52/salsa_zaklad_dekarski_andrzej_urbankowski-scerny_jbu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,pabianicki,pi%C4%85tkowisko,49a/lauer-sfsrso_jci.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,kutnowski,go%C5%82%C4%99biew_nowy,4/markundach_bud_sp._z_o.o.-sgawun_jbu.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,beskidzka,61/centrum_zwierzak_hotel_dla_zwierzat_pielegnacja_psi_psycholog-sgciwg_byr.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,piotrkowski,kos%C3%B3w,g%C5%82%C3%B3wna,11/ach_fach_wykanczanie_wnetrz-sfwwbw_jhh.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,%C5%82owicki,bor%C3%B3wek,1/baranski_ocieplenia_agnieszka_baranska-zeuyca_jci.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,pabianicki,orpel%C3%B3w_numerki,5/budo_therm_ocieplenia_metoda_wdmuchiwania_wojciech_klos-zjhwgi_lzx.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,,skierniewice,rawska,83b_lok._20/elewacje_ocieplenia_wykonczenia_wnetrz_damian_laskowski-zmxmrc_jhb.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,podd%C4%99bicki,korytno,22/ocieplenia_budynkow_uslugi_ogolno_remontowe_pawel_szopa-zdczgp_jhh.html",
+"https://panoramafirm.pl/%C5%82%C3%B3dzkie,rawski,rawa_mazowiecka,opoczy%C5%84ska,14/quick_mix_sp._z_o.o._zaprawy_murarskie_ocieplenia-agbzwo_jbb.html",
+    ]
+    ?>

@@ -1,0 +1,19 @@
+<?php
+$ocieplenia_opolskie = [
+"https://panoramafirm.pl/opolskie,strzelecki,strzelce_opolskie,le%C5%9Bna,10/zygfryd_jendryka_uslugi_remontowo_wykonczeniowe-scafgs_jhh.html",
+"https://panoramafirm.pl/opolskie,strzelecki,dziewkowice,korfantego,14/knapik_bau_s.c.-sgcpcj_jci.html",
+"https://panoramafirm.pl/opolskie,oleski,dalach%C3%B3w,319/twoj_dom_remonty_wykonczenia_wnetrz_marcin_wilk-sgzaim_jhh.html",
+"https://panoramafirm.pl/opolskie,kluczborski,szum,96/olejnik_andrzej_uslugi_remontowo_budowlane_hydraulika_ocieplenia-sgobze_jci.html",
+"https://panoramafirm.pl/opolskie,krapkowicki,krapkowice,ks._kozio%C5%82ka,18_4/grzegorz_dworaczek_dwoexpe-sgzbij_jci.html",
+"https://panoramafirm.pl/opolskie,opolski,d%C4%99bie,raszowska,14/marek_matner_zaklad_handlowo_uslugowy_m_&_m-sfxwbf_jci.html",
+"https://panoramafirm.pl/opolskie,,opole,wiejska,60/baumax-sgcayj_jci.html",
+"https://panoramafirm.pl/opolskie,kluczborski,b%C4%85k%C3%B3w,ko%C5%9Bciuszki,11/uslugi_ogolnobudowlane_mgd-sgcyra_jbu.html",
+"https://panoramafirm.pl/opolskie,oleski,gorz%C3%B3w_%C5%9Bl%C4%85ski,piaskowa,10/artur_dzierzon_firma_dzierzon-sfxtnm_jbu.html",
+"https://panoramafirm.pl/opolskie,,opole,przedszkolna,10/helmut_rimpler_uslugi_remontowo_budowlane-sfnruc_jhh.html",
+"https://panoramafirm.pl/opolskie,opolski,niwki,wiejska,52/adela_czyrnia_przedsiebiorstwo_handlowo_uslugowe-sfmhkt_jci.html",
+"https://panoramafirm.pl/opolskie,strzelecki,jemielnica,sosnowa,1/phu_gb_mont_grzegorz_sprancel-sflakl_jhh.html",
+"https://panoramafirm.pl/opolskie,krapkowicki,krapkowice,kili%C5%84skiego,1/przedsiebiorstwo_produkcyjno_handlowo_uslugowe_n_steel_danuta_i_justyna_pawlisz_spolka_jawna-sctdgl_hwj.html",
+"https://panoramafirm.pl/opolskie,opolski,skarbisz%C3%B3w,opolska,41/uslugi_remontowo_budowlane_lukasz_torka-sfdise_jhb.html",
+"https://panoramafirm.pl/opolskie,g%C5%82ubczycki,g%C5%82ubczyce,kochanowskiego,13_lok._5/ocieplenia_i_wykonczenia_pawel_zator-zyygto_jm.html",
+    ]
+    ?>
