@@ -1,5 +1,5 @@
 <?php
-    $biura_opolskie = array (
+    $biura_rachunkowe_opolskie = array (
         'https://panoramafirm.pl/opolskie,strzelecki,strzelce_opolskie,pl._targowy,19/in_plus_biuro_rachunkowe_zdzislawa_kolibaba-sbjfsg_and.html',
         'https://panoramafirm.pl/opolskie,nyski,nysa,pl._ko%C5%9Bcielny,1_1/krzysztof_pelc_adwokat_kancelaria_adwokacka-sfkpdj_xt.html',
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',

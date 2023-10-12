@@ -1,5 +1,5 @@
 <?php
-    $biura_podlaskie = array( 
+    $biura_rachunkowe_podlaskie = array( 
         'https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,przygodna,14_u4/audyt_bt-sclynn_and.html',
         'https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,bitwy_bia%C5%82ostockiej,7_1/biuro_rachunkowe_tributum_s.c._anna_wysocka_marcin_wysocki-sbhhjd_and.html', 
         'https://panoramafirm.pl/podlaskie,bielski,bielsk_podlaski,kazimierzowska,4a/kancelaria_doradcy_podatkowego_biuro_rachunkowe_marta_zielinska-scdlor_and.html', 

@@ -1,5 +1,5 @@
 <?php
-    $biura_kujawskopomorskie = array (		
+    $biura_rachunkowe_kujawskopomorskie = array (		
         'https://panoramafirm.pl/kujawsko_pomorskie		toru%C5%84	marii_sk%C5%82odowskiej_curie	73_budynek_elana_pet_i_pi%C4%99tro_pok.17/biuro_rachunkowe_torun_pelna_ksiegowosc_ksiegowa_anna_dunajska-sfpast_and.html',
         'https://panoramafirm.pl/kujawsko_pomorskie	inowroc%C5%82awski	kruszwica	rybacka	11/uslugi_ksiegowe_anna_stanislawska-sbkcpi_and.html',
         'https://panoramafirm.pl/kujawsko_pomorskie		toru%C5%84	miedza	6/sarnecka_lidia._biuro_doradztwa_podatkowego-scbhdr_and.html',

@@ -1,5 +1,5 @@
 <?php
-    $biura_dolnośląskie = array (
+    $biura_rachunkowe_dolnośląskie = array (
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,fabryczna,g%C3%B3ralska,5_obok_lidla/dora_biuro_uslug_rachunkowych_dorota_jarzab-sbzjhe_and.html',
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,g%C5%82ogowski,g%C5%82og%C3%B3w,rondo_konstytucji_3_maja,1_212/maja_biuro_rachunkowe_agnieszka_peciak-sflegz_and.html',

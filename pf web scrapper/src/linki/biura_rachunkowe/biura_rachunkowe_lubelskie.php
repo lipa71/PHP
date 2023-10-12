@@ -1,5 +1,5 @@
 <?php
-    $biura_lubelskie = array (
+    $biura_rachunkowe_lubelskie = array (
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/lubelskie,,lublin,zamojska,8_u5/br_napora_sp._z_o.o._biuro_rachunkowe_anna_napora-sbkjoo_and.html',
         'https://panoramafirm.pl/lubelskie,,lublin,zawieprzycka,8l/biuro_rachunkowe_bzowska_&_stec_s.c.-sfthwb_and.html',

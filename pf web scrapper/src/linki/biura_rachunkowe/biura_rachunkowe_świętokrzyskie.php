@@ -1,5 +1,5 @@
 <?php
-    $biura_świętokrzyskie = array (
+    $biura_rachunkowe_świętokrzyskie = array (
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/%C5%9Bwi%C4%99tokrzyskie,,kielce,cz%C4%99stochowska,19/kz_expert_sp._z_o.o.-sfmuks_and.html',
         'https://panoramafirm.pl/%C5%9Bwi%C4%99tokrzyskie,,kielce,seminaryjska,18_64/braw_consulting_anna_wysocka-srsfbp_and.html',

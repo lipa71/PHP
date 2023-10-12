@@ -1,5 +1,5 @@
 <?php
-    $biura_małopolskie = array (
+    $biura_rachunkowe_małopolskie = array (
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,pr%C4%85dnik_czerwony,majora,52_11/marta_mendyk_uslugi_ksiegowo_kadrowe-sfncpo_and.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,podg%C3%B3rze,krzywda,12a_b7/tax_venture_biuro_rachunkowe_dominika_bysiec-schbdk_and.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,wzg%C3%B3rza_krzes%C5%82awickie,makuszy%C5%84skiego,4/ksiegowosc_z_pasja-sfipod_and.html',

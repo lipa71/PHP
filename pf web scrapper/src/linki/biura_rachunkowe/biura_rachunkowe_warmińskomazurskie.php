@@ -1,5 +1,5 @@
 <?php
-    $biura_warmińskomazurskie = array (
+    $biura_rachunkowe_warmińskomazurskie = array (
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/warmi%C5%84sko_mazurskie,i%C5%82awski,i%C5%82awa,smolki,6b/elnet_s.c._biuro_rachunkowe_elzbieta_nawotka_jacek_nawotka-sbtett_and.html',
         'https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olszty%C5%84ski,barczewo,ko%C5%9Bciuszki,13/ewa_sarwa_biuro_rachunkowe-scdund_and.html',

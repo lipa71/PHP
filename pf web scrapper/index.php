@@ -48,6 +48,8 @@
         <br>
         <a href="src/elewacje.php">elewacje</a>
         <br>
+        <a href="src/spożywcza.php">spożywcza</a>
+        <br>
     </center>
 </body>
 </html>

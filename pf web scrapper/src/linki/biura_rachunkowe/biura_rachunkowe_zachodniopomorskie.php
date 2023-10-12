@@ -1,5 +1,5 @@
 <?php
-    $biura_zachodniopomorskie = array (			
+    $biura_rachunkowe_zachodniopomorskie = array (			
 'https://panoramafirm.pl/zachodniopomorskie	stargardzki	stargard	staffa	9/biuro_rachunkowe_ebuchalter_s.c._jw_holubowscy-scnlus_and.html',
 'https://panoramafirm.pl/zachodniopomorskie		szczecin	marsz._j%C3%B3zefa_pi%C5%82sudskiego	37_4a/omnibus_kancelaria_doradztwa_podatkowego_barbara_marciniak_marecka-sbkcsn_and.html',
 'https://panoramafirm.pl/zachodniopomorskie		koszalin	jana_z_kolna	36_16/biuro_uslug_rachunkowych_i_audytu_wynik_mariola_piatkowska-scmegs_and.html',

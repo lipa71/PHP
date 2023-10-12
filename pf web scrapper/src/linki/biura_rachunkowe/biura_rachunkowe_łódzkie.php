@@ -1,5 +1,5 @@
 <?php
-    $biura_łódzkie = array (
+    $biura_rachunkowe_łódzkie = array (
         'https://panoramafirm.pl/wielkopolskie,k%C4%99pi%C5%84ski,k%C4%99pno,kili%C5%84skiego,9_15/izabela_podkowka_biuro_rachunkowe-sbzcyw_and.html',
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,ba%C5%82uty,niemojewskiego,12/duet_s.c.-sbckok_and.html',

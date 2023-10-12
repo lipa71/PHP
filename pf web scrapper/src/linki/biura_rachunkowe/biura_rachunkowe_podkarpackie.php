@@ -1,5 +1,5 @@
 <?php
-    $biura_podkarpackie = array (
+    $biura_rachunkowe_podkarpackie = array (
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,pr%C4%85dnik_czerwony,majora,52_11/marta_mendyk_uslugi_ksiegowo_kadrowe-sfncpo_and.html',
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/podkarpackie,d%C4%99bicki,d%C4%99bica,%C5%82asaka,4/beata_pieczonka_maziarka_doradca_podatkowy-srtcuu_and.html',

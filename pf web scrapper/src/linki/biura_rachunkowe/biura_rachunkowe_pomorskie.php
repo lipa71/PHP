@@ -1,5 +1,5 @@
 <?php
-    $biura_pomorskie = array (
+    $biura_rachunkowe_pomorskie = array (
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/pomorskie,,s%C5%82upsk,konopnickiej,18_6/ksiegowa_boguslawa_lewandowska-srxrrr_and.html',
         'https://panoramafirm.pl/pomorskie,gda%C5%84ski,pruszcz_gda%C5%84ski,chopina,28_6/kancelaria_rachunkowa_all_an_sp._z_o.o.-srunwa_and.html',

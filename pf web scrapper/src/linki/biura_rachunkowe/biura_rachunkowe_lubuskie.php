@@ -1,5 +1,5 @@
 <?php
-    $biura_lubuskie = array(
+    $biura_rachunkowe_lubuskie = array(
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/lubuskie,,zielona_g%C3%B3ra,bohater%C3%B3w_westerplatte,50_1/bilans_biuro_rachunkowe_marta_jablonska-sbaeet_and.html',
         'https://panoramafirm.pl/lubuskie,,gorz%C3%B3w_wielkopolski,walczaka,12d_11/biuro_uslug_ksiegowych_adamis_aneta_adamczyk-sbkmlf_and.html',

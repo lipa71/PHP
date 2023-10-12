@@ -1,5 +1,5 @@
 <?php
-    $biura_śląskie = array (
+    $biura_rachunkowe_śląskie = array (
         'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,katowice,bohater%C3%B3w_monte_cassino,20_1/biuro_rachunkowo_ksiegowe_plus_wioletta_wojciech-srbpyf_and.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,pr%C4%85dnik_czerwony,majora,52_11/marta_mendyk_uslugi_ksiegowo_kadrowe-sfncpo_and.html',
         'https://panoramafirm.pl/%C5%9Bl%C4%85skie,,d%C4%85browa_g%C3%B3rnicza,11_listopada,24/kancelaria_finansowo_ksiegowa_saldo_sp._z_o.o._biuro_rachunkowe_saldo-sfrrfr_and.html',

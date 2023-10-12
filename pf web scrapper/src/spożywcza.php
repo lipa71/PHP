@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-    <h1>biura_rachunkowe</h1>
+    <h1>spożywcza</h1>
     <form method="POST">
         <select name="region">
             <option value="" disabled selected>--Wybierz region--</option>
@@ -40,10 +40,10 @@
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'dolnośląskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_dolnośląskie.php');
+    include('linki/spożywcza/spożywcza_dolnośląskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_dolnośląskie as $link) {
+    foreach ($spożywcza_dolnośląskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -72,18 +72,18 @@ if(isset($_POST['submit']) && $region === 'dolnośląskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_dolnośląskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_dolnośląskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_dolnośląskie.csv', 'w');
+    file_put_contents('spożywcza_dolnośląskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_kujawskopomorskie.php');
+    include('linki/spożywcza/spożywcza_kujawskopomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_kujawskopomorskie as $link) {
+    foreach ($spożywcza_kujawskopomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -112,18 +112,18 @@ if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_kujawskopomorskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_kujawskopomorskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_kujawskopomorskie.csv', 'w');
+    file_put_contents('spożywcza_kujawskopomorskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'lubelskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_lubelskie.php');
+    include('linki/spożywcza/spożywcza_lubelskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_lubelskie as $link) {
+    foreach ($spożywcza_lubelskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -152,18 +152,18 @@ if(isset($_POST['submit']) && $region === 'lubelskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_lubelskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_lubelskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_lubelskie.csv', 'w');
+    file_put_contents('spożywcza_lubelskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'lubuskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_lubuskie.php');
+    include('linki/spożywcza/spożywcza_lubuskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_lubuskie as $link) {
+    foreach ($spożywcza_lubuskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -192,18 +192,18 @@ if(isset($_POST['submit']) && $region === 'lubuskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_lubuskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_lubuskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_lubuskie.csv', 'w');
+    file_put_contents('spożywcza_lubuskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'łódzkie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_łódzkie.php');
+    include('linki/spożywcza/spożywcza_łódzkie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_łódzkie as $link) {
+    foreach ($spożywcza_łódzkie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -232,18 +232,18 @@ if(isset($_POST['submit']) && $region === 'łódzkie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_łódzkie.csv', 'w');
-    file_put_contents('biura_rachunkowe_łódzkie.csv',$wynik_array3);
+    $file = fopen('spożywcza_łódzkie.csv', 'w');
+    file_put_contents('spożywcza_łódzkie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'małopolskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_małopolskie.php');
+    include('linki/spożywcza/spożywcza_małopolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_małopolskie as $link) {
+    foreach ($spożywcza_małopolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -272,18 +272,18 @@ if(isset($_POST['submit']) && $region === 'małopolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_małopolskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_małopolskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_małopolskie.csv', 'w');
+    file_put_contents('spożywcza_małopolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'mazowieckie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_mazowieckie.php');
+    include('linki/spożywcza/spożywcza_mazowieckie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_mazowieckie as $link) {
+    foreach ($spożywcza_mazowieckie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -312,18 +312,18 @@ if(isset($_POST['submit']) && $region === 'mazowieckie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_mazowieckie.csv', 'w');
-    file_put_contents('biura_rachunkowe_mazowieckie.csv',$wynik_array3);
+    $file = fopen('spożywcza_mazowieckie.csv', 'w');
+    file_put_contents('spożywcza_mazowieckie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'opolskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_opolskie.php');
+    include('linki/spożywcza/spożywcza_opolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_opolskie as $link) {
+    foreach ($spożywcza_opolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -352,18 +352,18 @@ if(isset($_POST['submit']) && $region === 'opolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_opolskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_opolskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_opolskie.csv', 'w');
+    file_put_contents('spożywcza_opolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'podkarpackie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_podkarpackie.php');
+    include('linki/spożywcza/spożywcza_podkarpackie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_podkarpackie as $link) {
+    foreach ($spożywcza_podkarpackie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -392,18 +392,18 @@ if(isset($_POST['submit']) && $region === 'podkarpackie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_podkarpackie.csv', 'w');
-    file_put_contents('biura_rachunkowe_podkarpackie.csv',$wynik_array3);
+    $file = fopen('spożywcza_podkarpackie.csv', 'w');
+    file_put_contents('spożywcza_podkarpackie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'podlaskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_podlaskie.php');
+    include('linki/spożywcza/spożywcza_podlaskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_podlaskie as $link) {
+    foreach ($spożywcza_podlaskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -432,18 +432,18 @@ if(isset($_POST['submit']) && $region === 'podlaskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_podlaskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_podlaskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_podlaskie.csv', 'w');
+    file_put_contents('spożywcza_podlaskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'pomorskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_pomorskie.php');
+    include('linki/spożywcza/spożywcza_pomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_pomorskie as $link) {
+    foreach ($spożywcza_pomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -472,18 +472,18 @@ if(isset($_POST['submit']) && $region === 'pomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_pomorskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_pomorskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_pomorskie.csv', 'w');
+    file_put_contents('spożywcza_pomorskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'śląskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_śląskie.php');
+    include('linki/spożywcza/spożywcza_śląskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_śląskie as $link) {
+    foreach ($spożywcza_śląskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -512,18 +512,18 @@ if(isset($_POST['submit']) && $region === 'śląskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_śląskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_śląskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_śląskie.csv', 'w');
+    file_put_contents('spożywcza_śląskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_świętokrzyskie.php');
+    include('linki/spożywcza/spożywcza_świętokrzyskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_świętokrzyskie as $link) {
+    foreach ($spożywcza_świętokrzyskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -552,18 +552,18 @@ if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_świętokrzyskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_świętokrzyskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_świętokrzyskie.csv', 'w');
+    file_put_contents('spożywcza_świętokrzyskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_warmińskomazurskie.php');
+    include('linki/spożywcza/spożywcza_warmińskomazurskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_warmińskomazurskie as $link) {
+    foreach ($spożywcza_warmińskomazurskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -592,18 +592,18 @@ if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_warmińsko-mazurskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_warmińsko-mazurskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_warmińsko-mazurskie.csv', 'w');
+    file_put_contents('spożywcza_warmińsko-mazurskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'wielkopolskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_wielkopolskie.php');
+    include('linki/spożywcza/spożywcza_wielkopolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_wielkopolskie as $link) {
+    foreach ($spożywcza_wielkopolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -632,18 +632,18 @@ if(isset($_POST['submit']) && $region === 'wielkopolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_wielkopolskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_wielkopolskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_wielkopolskie.csv', 'w');
+    file_put_contents('spożywcza_wielkopolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
     include('simple_html_dom.php');
-    include('linki/biura_rachunkowe/biura_rachunkowe_zachodniopomorskie.php');
+    include('linki/spożywcza/spożywcza_zachodniopomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($biura_rachunkowe_zachodniopomorskie as $link) {
+    foreach ($spożywcza_zachodniopomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -672,8 +672,8 @@ if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('biura_rachunkowe_zachodnio-pomorskie.csv', 'w');
-    file_put_contents('biura_rachunkowe_zachodnio-pomorskie.csv',$wynik_array3);
+    $file = fopen('spożywcza_zachodnio-pomorskie.csv', 'w');
+    file_put_contents('spożywcza_zachodnio-pomorskie.csv',$wynik_array3);
     fclose($file);
 }
 

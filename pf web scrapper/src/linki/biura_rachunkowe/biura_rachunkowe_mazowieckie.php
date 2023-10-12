@@ -1,5 +1,5 @@
 <?php
-    $biura_mazowieckie = array (
+    $biura_rachunkowe_mazowieckie = array (
         'https://panoramafirm.pl/mazowieckie,,warszawa,%C5%9Br%C3%B3dmie%C5%9Bcie,marsza%C5%82kowska,68_70m._19/abicus_malgorzata_szulejewska-sbjzau_and.html',
         'https://panoramafirm.pl/mazowieckie,,warszawa,targ%C3%B3wek,krasnobrodzka,11/ef_ka_biuro_rachunkowe_bogumila_romanowicz_ewa_marszal-sbxfwt_and.html',
         'https://panoramafirm.pl/mazowieckie,,warszawa,wawer,ligustrowa,2/komp_biur_sp._z_o.o._biuro_rachunkowe-srsikx_kou.html',

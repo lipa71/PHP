@@ -1,5 +1,5 @@
 <?php
-    $biura_wielkopolskie = array (
+    $biura_rachunkowe_wielkopolskie = array (
         'https://panoramafirm.pl/kujawsko_pomorskie,rypi%C5%84ski,kie%C5%82piny,16/biuro_ksiegowe_barbara_skowronska-sfizan_and.html',
         'https://panoramafirm.pl/wielkopolskie,,pozna%C5%84,stanis%C5%82awa_zwierzchowskiego,17b/mbj_biznes_sp._z_o.o._biuro_rachunkowe-sfjysc_and.html',
         'https://panoramafirm.pl/wielkopolskie,ostrowski,ostr%C3%B3w_wielkopolski,kolejowa,11_4/lh_polonia_consulting_henryk_matczak-sfamrm_and.html',
