@@ -462,7 +462,6 @@
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,wroc%C5%82awski,k%C4%85ty_wroc%C5%82awskie,wolno%C5%9Bci,17b/hotel_dla_zwierzat_kubus_cmentarz_i_krematorium_dla_zwierzat_teczowy_most_jagielski_tomasz-trpjg_md.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,jeleniog%C3%B3rski,karpacz,my%C5%9Bliwska,22/hotel_dziki_potok_karolina_zabrocka-zektyo_mko.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,k%C5%82odzki,polanica_zdr%C3%B3j,zdrojowa,15/hotel_europa-anhukk_ain.html',
-        'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,jelenia_g%C3%B3ra,karpacz,karkonoska,14/hotel_golebiewski-agehff_zu.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,stawowa,13/hotel_grand_sp._z_o.o.-zykyew_abi.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,ole%C5%9Bnicki,syc%C3%B3w,szosa_k%C4%99pi%C5%84ska,1/hotel_i_restauracja_aroma_stone-armoft_lwb.html',
         'https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,o%C5%82awski,o%C5%82awa,%C5%9Bw._rocha,1/hotel_jakub_sobieski_p.h.u._jadrom_uslugi_hotelarsko_gastronomiczne_jadwiga_kaczor-zamkpx_roe.html',

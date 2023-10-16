@@ -50,6 +50,13 @@
         <br>
         <a href="src/spożywcza.php">spożywcza</a>
         <br>
+        <a href="src/hotele.php">hotele</a>
+        <br>
+        <a href="src/ślusarstwo.php">ślusarstwo</a>
+        <br>
+        <a href="src/motoryzacyjna.php">motoryzacyjna</a>
+        <br>
+        <a href="src/gastronomiczna.php">gastronomiczna</a>
     </center>
 </body>
 </html>

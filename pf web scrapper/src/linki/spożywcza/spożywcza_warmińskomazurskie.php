@@ -2409,3 +2409,4 @@ $spożywcza_warmińskomazurskie = [
 "https://panoramafirm.pl/warmi%C5%84sko_mazurskie,bartoszycki,judyty,3a/zaneta_klimuk_handel_artykulami_spozywczo_przemyslowymi-zdetzp_zc.html",
 "https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olszty%C5%84ski,gietrzwa%C5%82d,34/zuk_m._sklep_spozywczo_przemyslowy-kjfiy_skd.html",
 ]
+?>

@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-    <h1>hotele</h1>
+    <h1>gastronomiczna</h1>
     <form method="POST">
         <select name="region">
             <option value="" disabled selected>--Wybierz region--</option>
@@ -40,10 +40,10 @@
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'dolnośląskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_dolnośląskie.php');
+    include('linki/gastronomiczna/gastronomiczna_dolnośląskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_dolnośląskie as $link) {
+    foreach ($gastronomiczna_dolnośląskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -72,18 +72,18 @@ if(isset($_POST['submit']) && $region === 'dolnośląskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_dolnośląskie.csv', 'w');
-    file_put_contents('hotele_dolnośląskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_dolnośląskie.csv', 'w');
+    file_put_contents('gastronomiczna_dolnośląskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_kujawskopomorskie.php');
+    include('linki/gastronomiczna/gastronomiczna_kujawskopomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_kujawskopomorskie as $link) {
+    foreach ($gastronomiczna_kujawskopomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -112,18 +112,18 @@ if(isset($_POST['submit']) && $region === 'kujawskopomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_kujawskopomorskie.csv', 'w');
-    file_put_contents('hotele_kujawskopomorskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_kujawskopomorskie.csv', 'w');
+    file_put_contents('gastronomiczna_kujawskopomorskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'lubelskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_lubelskie.php');
+    include('linki/gastronomiczna/gastronomiczna_lubelskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_lubelskie as $link) {
+    foreach ($gastronomiczna_lubelskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -152,18 +152,18 @@ if(isset($_POST['submit']) && $region === 'lubelskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_lubelskie.csv', 'w');
-    file_put_contents('hotele_lubelskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_lubelskie.csv', 'w');
+    file_put_contents('gastronomiczna_lubelskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'lubuskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_lubuskie.php');
+    include('linki/gastronomiczna/gastronomiczna_lubuskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_lubuskie as $link) {
+    foreach ($gastronomiczna_lubuskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -192,18 +192,18 @@ if(isset($_POST['submit']) && $region === 'lubuskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_lubuskie.csv', 'w');
-    file_put_contents('hotele_lubuskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_lubuskie.csv', 'w');
+    file_put_contents('gastronomiczna_lubuskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'łódzkie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_łódzkie.php');
+    include('linki/gastronomiczna/gastronomiczna_łódzkie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_łódzkie as $link) {
+    foreach ($gastronomiczna_łódzkie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -232,18 +232,18 @@ if(isset($_POST['submit']) && $region === 'łódzkie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_łódzkie.csv', 'w');
-    file_put_contents('hotele_łódzkie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_łódzkie.csv', 'w');
+    file_put_contents('gastronomiczna_łódzkie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'małopolskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_małopolskie.php');
+    include('linki/gastronomiczna/gastronomiczna_małopolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_małopolskie as $link) {
+    foreach ($gastronomiczna_małopolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -272,18 +272,18 @@ if(isset($_POST['submit']) && $region === 'małopolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_małopolskie.csv', 'w');
-    file_put_contents('hotele_małopolskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_małopolskie.csv', 'w');
+    file_put_contents('gastronomiczna_małopolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'mazowieckie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_mazowieckie.php');
+    include('linki/gastronomiczna/gastronomiczna_mazowieckie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_mazowieckie as $link) {
+    foreach ($gastronomiczna_mazowieckie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -312,18 +312,18 @@ if(isset($_POST['submit']) && $region === 'mazowieckie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_mazowieckie.csv', 'w');
-    file_put_contents('hotele_mazowieckie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_mazowieckie.csv', 'w');
+    file_put_contents('gastronomiczna_mazowieckie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'opolskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_opolskie.php');
+    include('linki/gastronomiczna/gastronomiczna_opolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_opolskie as $link) {
+    foreach ($gastronomiczna_opolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -352,18 +352,18 @@ if(isset($_POST['submit']) && $region === 'opolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_opolskie.csv', 'w');
-    file_put_contents('hotele_opolskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_opolskie.csv', 'w');
+    file_put_contents('gastronomiczna_opolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'podkarpackie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_podkarpackie.php');
+    include('linki/gastronomiczna/gastronomiczna_podkarpackie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_podkarpackie as $link) {
+    foreach ($gastronomiczna_podkarpackie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -392,18 +392,18 @@ if(isset($_POST['submit']) && $region === 'podkarpackie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_podkarpackie.csv', 'w');
-    file_put_contents('hotele_podkarpackie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_podkarpackie.csv', 'w');
+    file_put_contents('gastronomiczna_podkarpackie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'podlaskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_podlaskie.php');
+    include('linki/gastronomiczna/gastronomiczna_podlaskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_podlaskie as $link) {
+    foreach ($gastronomiczna_podlaskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -432,18 +432,18 @@ if(isset($_POST['submit']) && $region === 'podlaskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_podlaskie.csv', 'w');
-    file_put_contents('hotele_podlaskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_podlaskie.csv', 'w');
+    file_put_contents('gastronomiczna_podlaskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'pomorskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_pomorskie.php');
+    include('linki/gastronomiczna/gastronomiczna_pomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_pomorskie as $link) {
+    foreach ($gastronomiczna_pomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -472,18 +472,18 @@ if(isset($_POST['submit']) && $region === 'pomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_pomorskie.csv', 'w');
-    file_put_contents('hotele_pomorskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_pomorskie.csv', 'w');
+    file_put_contents('gastronomiczna_pomorskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'śląskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_śląskie.php');
+    include('linki/gastronomiczna/gastronomiczna_śląskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_śląskie as $link) {
+    foreach ($gastronomiczna_śląskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -512,18 +512,18 @@ if(isset($_POST['submit']) && $region === 'śląskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_śląskie.csv', 'w');
-    file_put_contents('hotele_śląskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_śląskie.csv', 'w');
+    file_put_contents('gastronomiczna_śląskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_świętokrzyskie.php');
+    include('linki/gastronomiczna/gastronomiczna_świętokrzyskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_świętokrzyskie as $link) {
+    foreach ($gastronomiczna_świętokrzyskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -552,18 +552,18 @@ if(isset($_POST['submit']) && $region === 'świętokrzyskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_świętokrzyskie.csv', 'w');
-    file_put_contents('hotele_świętokrzyskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_świętokrzyskie.csv', 'w');
+    file_put_contents('gastronomiczna_świętokrzyskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_warmińskomazurskie.php');
+    include('linki/gastronomiczna/gastronomiczna_warmińskomazurskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_warmińskomazurskie as $link) {
+    foreach ($gastronomiczna_warmińskomazurskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -592,18 +592,18 @@ if(isset($_POST['submit']) && $region === 'warmińsko-mazurskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_warmińsko-mazurskie.csv', 'w');
-    file_put_contents('hotele_warmińsko-mazurskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_warmińsko-mazurskie.csv', 'w');
+    file_put_contents('gastronomiczna_warmińsko-mazurskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'wielkopolskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_wielkopolskie.php');
+    include('linki/gastronomiczna/gastronomiczna_wielkopolskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_wielkopolskie as $link) {
+    foreach ($gastronomiczna_wielkopolskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -632,18 +632,18 @@ if(isset($_POST['submit']) && $region === 'wielkopolskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_wielkopolskie.csv', 'w');
-    file_put_contents('hotele_wielkopolskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_wielkopolskie.csv', 'w');
+    file_put_contents('gastronomiczna_wielkopolskie.csv',$wynik_array3);
     fclose($file);
 }
 
 $region = $_POST['region'];
 if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
     include('simple_html_dom.php');
-    include('linki/hotele/hotele_zachodniopomorskie.php');
+    include('linki/gastronomiczna/gastronomiczna_zachodniopomorskie.php');
     set_time_limit(0);
     $wynik_array = [];
-    foreach ($hotele_zachodniopomorskie as $link) {
+    foreach ($gastronomiczna_zachodniopomorskie as $link) {
         $html = file_get_html($link);
         $telefon = $html->find('div[class="col-xs-12 modal-title w-100 font-weight-bold text-dark"]', 0);
         $email = $html->find('a[class="text-primary hover-underline cursor-pointer ajax-modal-link addax addax-cs_ip_mod_send_email"]', 0);
@@ -672,8 +672,8 @@ if(isset($_POST['submit']) && $region === 'zachodnio-pomorskie'){
         $wynik_array3.=$value. "\n";
     }
 
-    $file = fopen('hotele_zachodnio-pomorskie.csv', 'w');
-    file_put_contents('hotele_zachodnio-pomorskie.csv',$wynik_array3);
+    $file = fopen('gastronomiczna_zachodnio-pomorskie.csv', 'w');
+    file_put_contents('gastronomiczna_zachodnio-pomorskie.csv',$wynik_array3);
     fclose($file);
 }
 

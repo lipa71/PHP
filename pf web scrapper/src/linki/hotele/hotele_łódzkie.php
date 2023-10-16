@@ -314,7 +314,6 @@
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,,piotrk%C3%B3w_trybunalski,kleszcz,4/restauracja_i_hotel_pod_dobrym_aniolem-ajresk_roe.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,wielu%C5%84ski,wielu%C5%84,m%C5%82odzie%C5%BCowa,19_3_lok._13_i_14/schronisko_i_hotel_dla_zwierzat_kamil_wegierski-zxpusu_byr.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,%C5%82aski,alfons%C3%B3w,2/shire_dog_hotel_i_szkolenie_psow_nikola_walaszczyk-zytxse_i.html',
-        'https://panoramafirm.pl/%C5%82%C3%B3dzkie,,%C5%82%C3%B3d%C5%BA,ba%C5%82uty,pasieczna,2_6_lok._25/silver_hotel_advising_sebastian_sosnowski-zxuznp_ch.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,zdu%C5%84skowolski,zdu%C5%84ska_wola,dolna,41/szkolne_schronisko_mlodziezowe_nr_1-zaimht_gem.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,brzezi%C5%84ski,rog%C3%B3w,le%C5%9Bna,5/szkola_glowna_gospodarstwa_wiejskiego_dom_studencki_jodelka-azbles_gem.html',
         'https://panoramafirm.pl/%C5%82%C3%B3dzkie,brzezi%C5%84ski,rog%C3%B3w,le%C5%9Bna,5/szkola_glowna_gospodarstwa_wiejskiego_zespol_domow_studenta_nr_6-azblej_gem.html',

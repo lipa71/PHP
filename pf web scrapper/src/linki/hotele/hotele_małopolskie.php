@@ -642,7 +642,6 @@
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,stare_miasto,rynek_g%C5%82%C3%B3wny,28/home_hotel_sp._z_o.o.-zkatop_tep.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,podg%C3%B3rze,zamkni%C4%99ta,10_0.2/home_hotel_sp._z_o.o._sp.k.-zdoptm_tep.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,wadowicki,lanckorona,legionist%C3%B3w,57/hotel_modrzewiowka-aydgnf_cgh.html',
-        'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,krowodrza,pr%C4%85dnicka,12_lok._503/hotel_22_sp._z_o.o.-zwpihk_ch.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,krowodrza,pr%C4%85dnicka,12_lok._503/hotel_22_sp._z_o.o._sp.k.-zwpinr_jci.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,my%C5%9Blenicki,%C5%82%C4%99ki,75/hotel_advisor_mariusz_domanus-zuaynk_abi.html',
         'https://panoramafirm.pl/ma%C5%82opolskie,,krak%C3%B3w,stare_miasto,garbarska,18_1/hotel_alexander-kncpg_aug.html',
