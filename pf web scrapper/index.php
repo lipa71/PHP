@@ -57,6 +57,8 @@
         <a href="src/motoryzacyjna.php">motoryzacyjna</a>
         <br>
         <a href="src/gastronomiczna.php">gastronomiczna</a>
+        <br>
+        <a href="src/przemysłowa.php">przemysłowa</a>
     </center>
 </body>
 </html>

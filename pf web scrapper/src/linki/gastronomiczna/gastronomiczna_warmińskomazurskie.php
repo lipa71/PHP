@@ -771,3 +771,5 @@ $gastronomiczna_warmińskomazurskie = [
 "https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olszty%C5%84ski,pluski,jeziorna,83/zloty_strug_restauracja_teresa_rokicka-aaoosj_roe.html",
 "https://panoramafirm.pl/warmi%C5%84sko_mazurskie,e%C5%82cki,prostki,e%C5%82cka,1/zorza_zaklad_piekarniczo_cukierniczy_karolina_krajewska-arnpuh_roe.html",
 "https://panoramafirm.pl/warmi%C5%84sko_mazurskie,i%C5%82awski,i%C5%82awa,jasielska,3_lok._21/zrodelko_s.c._firma_handlowo_uslugowa-ajprgh_roe.html",
+]
+?>

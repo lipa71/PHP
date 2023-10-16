@@ -618,3 +618,5 @@ $gastronomiczna_podlaskie = [
 "https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,sk%C5%82odowskiej_curie,2/zebra_restaurant_&_pub-oegruw_roe.html",
 "https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,knyszy%C5%84ska,12/zespol_szkol_gastronomicznych-thofj_klo.html",
 "https://panoramafirm.pl/podlaskie,moniecki,mo%C5%84ki,tysi%C4%85clecia,25/z.g.u._dworak_dworakowska_barbara-syoms_roe.html",
+]
+?>
