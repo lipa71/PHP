@@ -59,6 +59,12 @@
         <a href="src/gastronomiczna.php">gastronomiczna</a>
         <br>
         <a href="src/przemysłowa.php">przemysłowa</a>
+        <br>
+        <a href="src/iwentowa.php">iwentowa</a>
+        <br>
+        <a href="src/medyczna.php">medyczna</a>
+        <br>
+        <a href="src/transportowa_i_logistyczna.php">transportowa_i_logistyczna</a>
     </center>
 </body>
 </html>
