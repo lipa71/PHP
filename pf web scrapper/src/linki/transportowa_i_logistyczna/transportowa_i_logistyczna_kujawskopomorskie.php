@@ -2754,7 +2754,7 @@ $transportowa_i_logistyczna_kujawskopomorskie = [
 "https://panoramafirm.pl/kujawsko_pomorskie,che%C5%82mi%C5%84ski,%C5%BCygl%C4%85d,46a/mts_trans_s.c._transport_miedzynarodowy_michal_i_ryszard_sokolowscy-asgylw_pie.html",
 "https://panoramafirm.pl/kujawsko_pomorskie,,toru%C5%84,ko%C5%9Bciuszki,8_lok._5/mtt_sp._z_o.o.-zibwwo_pie.html",
 "https://panoramafirm.pl/kujawsko_pomorskie,,toru%C5%84,ok%C3%B3lna,140d_lok._24/multiprojekt_edyta_szutta-afphty_pie.html",
-"https://panoramafirm.pl/kujawsko_pomorskie,nakielski,kowalewo,le%C5%9Bna,8_lok._9/murawski_tomasz_transport_drogowy-accadb_pie.html",
+// "https://panoramafirm.pl/kujawsko_pomorskie,nakielski,kowalewo,le%C5%9Bna,8_lok._9/murawski_tomasz_transport_drogowy-accadb_pie.html",
 "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,wi%C4%99cierzowa,1/musial_kazimierz-arhyud_pie.html",
 "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,piel%C4%99gniarska,21_lok._3/musial_phu_maciej_musial-zluxxu_pie.html",
 "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,pi%C4%99kna,13_lok._204/mvm_logistics_sp._z_o.o.-znxwge_pie.html",

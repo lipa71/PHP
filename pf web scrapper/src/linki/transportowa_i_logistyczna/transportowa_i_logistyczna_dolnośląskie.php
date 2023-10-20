@@ -3177,7 +3177,7 @@ $transportowa_i_logistyczna_dolnośląskie = [
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,wroc%C5%82awski,pietrzykowice,fabryczna,6/kazimierz_pisarek_oripo_polska-asrfrf_pie.html",
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,g%C3%B3rowski,siciny,23/kaziow_zbigniew_firma_transportowa-petoi_pie.html",
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,trzebnicki,trzebnica,ko%C5%9Bciuszki,8/k.b._cargo_marzena_wozniak-zxfjwr_pie.html",
-"https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,psie_pole,obornicka,77b_lok._1d/kb_trans_krzysztof_bilski-zybbjx_pie.html",
+// "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,psie_pole,obornicka,77b_lok._1d/kb_trans_krzysztof_bilski-zybbjx_pie.html",
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,,wroc%C5%82aw,psie_pole,boles%C5%82awa_krzywoustego,74/kcp_trans_sp._z_o.o.-zxsexc_pie.html",
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,k%C5%82odzki,k%C5%82odzko,%C5%BCeromskiego,18_lok._2/kdddc_kajetan_szramke-boimal_pie.html",
 "https://panoramafirm.pl/dolno%C5%9Bl%C4%85skie,k%C5%82odzki,stary_walisz%C3%B3w,127/kdkw_trans_krzysztof_daszkiewicz-zwkrze_pie.html",
