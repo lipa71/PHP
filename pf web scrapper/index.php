@@ -67,6 +67,18 @@
         <a href="src/transportowa_i_logistyczna.php">transportowa_i_logistyczna</a>
         <br>
         <a href="src/produkcyjna.php">produkcyjna</a>
+        <br>
+        <a href="src/metalurgiczna.php">metalurgiczna</a>
+        <br>
+        <a href="src/farmaceutyczna.php">farmaceutyczna</a>
+        <br>
+        <a href="src/kosmetyczna.php">kosmetyczna</a>
+        <br>
+        <a href="src/nieruchomości.php">nieruchomości</a>
+        <br>
+        <a href="src/inżynieryjna.php">inżynieryjna</a>
+        <br>
+        <a href="src/bhp.php">bhp</a>
     </center>
 </body>
 </html>
