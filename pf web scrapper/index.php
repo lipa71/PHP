@@ -79,6 +79,20 @@
         <a href="src/inżynieryjna.php">inżynieryjna</a>
         <br>
         <a href="src/bhp.php">bhp</a>
+        <br>
+        <a href="src/poligraficzna.php">poligraficzna</a>
+        <br>
+        <a href="src/energetyczna.php">energetyczna</a>
+        <br>
+        <a href="src/elektrotechniczna.php">elektrotechniczna</a>
+        <br>
+        <a href="src/sprzątanie.php">sprzątanie</a>
+        <br>
+        <a href="src/szkoleniowa.php">szkoleniowa</a>
+        <br>
+        <a href="src/turystyczna.php">turystyczna</a>
+        <br>
+        <a href="src/administracyjna.php">administracyjna</a>
     </center>
 </body>
 </html>
