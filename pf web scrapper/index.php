@@ -93,6 +93,22 @@
         <a href="src/turystyczna.php">turystyczna</a>
         <br>
         <a href="src/administracyjna.php">administracyjna</a>
+        <br>
+        <a href="src/budowlana_email.php">budowlana_email</a>
+        <br>
+        <a href="src/iwentowa_email.php">iwentowa_email</a>
+        <br>
+        <a href="src/handel_email.php">handel_email</a>
+        <br>
+        <a href="src/drogowa_email.php">drogowa_email</a>
+        <br>
+        <a href="src/mosty_email.php">mosty_email</a>
+        <br>
+        <a href="src/koleje_email.php">koleje_email</a>
+        <br>
+        <a href="src/pks_email.php">pks_email</a>
+        <br>
+        <a href="src/szpitale_email.php">szpitale_email</a>
     </center>
 </body>
 </html>

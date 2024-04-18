@@ -1,0 +1,22 @@
+<?php
+$mosty_warmińskomazurskie = [
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olszty%C5%84ski,biskupiec,ludowa,2d/na_wzgorzu_malgorzata_zbigniew_plonka-srgdpe_sj.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,towarowa,9f_pok.10/concrete_zabloccy_sp.j.-srrxld_joo.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,towarowa,20_b/kw_system_sp._z_o.o.-sgahlh_jrd.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,lubelska,33/gaparts_lukasz_staniszewski-sgohhl_jls.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,al._marsz._j%C3%B3zefa_pi%C5%82sudskiego,76_227/corn_max_uslugi_komunalne_monika_sokal-sgazom_mko.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,e%C5%82cki,e%C5%82k,magazynowa,1_16/firma_uslugowo_handlowa_gro_tor_pawel_dabrowski-sfkdkt_jfn.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,e%C5%82cki,e%C5%82k,gda%C5%84ska,40/prywatny_gabinet_stomatologiczny_lek._stom._dorota_wrobel-sftrcf_sj.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,dzia%C5%82dowski,dzia%C5%82dowo,grunwaldzka,43/wojciech_zgliczynski_zaklad_betoniarski-sbsmnr_joo.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,bartoszycki,bartoszyce,gen._j%C3%B3zefa_bema,31b/dorota_szwedowicz_lekarz_stomatolog-sgbkur_sj.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,go%C5%82dapski,go%C5%82dap,pl._zwyci%C4%99stwa,6a/centrum_projektu_tomasz_switaj-sflcmm_mlp.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,ostr%C3%B3dzki,ostr%C3%B3da,ko%C5%9Bciuszki,6_2/uslugi_godlewski_danuta_godlewska-scrcyf_jkm.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,gi%C5%BCycki,gi%C5%BCycko,gda%C5%84ska,35/janusz_szudra_montaz_barier_energochlonnych_w_spadku-sfumyr_aho.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,olszty%C5%84ski,barczewo,mi%C5%82a,6_lok._25/klim_most_daniel_klimas-zemfxy_jhh.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,k%C4%99trzy%C5%84ski,r%C3%B3%C5%BCanka/przedsiebiorstwo_budowy_drog_i_mostow_dromo_sp._z_o.o.-oyhyah_jro.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,ostr%C3%B3dzki,ostr%C3%B3da,nadrzeczna,5/przedsiebiorstwo_budowy_drog_i_mostow_dromo_sp._z_o.o.-pjdlg_jro.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,k%C4%99trzy%C5%84ski,k%C4%99trzyn,ba%C5%82tycka,20/przedsiebiorstwo_budowy_drog_i_mostow_dromo_sp._z_o.o.-oelxkf_jro.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,dzia%C5%82dowski,komorniki,14_lok._2/zaklad_budowy_drog_i_mostow_jaroslaw_dolny-zntisf_jro.html",
+"https://panoramafirm.pl/warmi%C5%84sko_mazurskie,,olsztyn,szrajbera,9_10/zwiazek_zawodowy_pracownikow_miejskiego_zarzadu_drog_mostow_i_zieleni_w_olsztynie-oxfurp_aswsj.html",
+]
+?>

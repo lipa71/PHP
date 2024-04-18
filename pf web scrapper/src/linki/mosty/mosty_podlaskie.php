@@ -1,0 +1,22 @@
+<?php
+$mosty_podlaskie = [
+"https://panoramafirm.pl/podlaskie,,%C5%82om%C5%BCa,poligonowa,32/bik_projekt_sp._z_o.o.-sfmymm_jro.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,wroc%C5%82awska,49a_37/unitest_krzysztof_markowski-sfjoeb_iu.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,szarych_szereg%C3%B3w,14/katarzyna_ostrowska_gabinet_stomatologiczny-sbywfr_sj.html",
+"https://panoramafirm.pl/podlaskie,,%C5%82om%C5%BCa,mazowiecka,2_26/krzysztof_dmochowski_uslugi_geodezyjne-sbbhow_ta.html",
+"https://panoramafirm.pl/podlaskie,suwalski,baka%C5%82arzewo,rynek,14/fundacja_wyrownywania_szans_edukacyjnych_kulturalnych_i_spolecznych_teczowy_most-zrstjb_afa.html",
+"https://panoramafirm.pl/podlaskie,bia%C5%82ostocki,borki,29/lipowy_most_golf_park_sp._z_o.o.-zaywpz_abi.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,puchalskiego,64_lok._1/mm_mosty_marcin_muszynski-bolokn_jro.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,bobr%C3%B3w,3_lok._2/m_mosty_marek_krysiewicz-arngzu_idu.html",
+"https://panoramafirm.pl/podlaskie,bielski,bielsk_podlaski,aleja_j%C3%B3zefa_pi%C5%82sudskiego,73/most_sp._z_o.o.-zeimyw_aug.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,zau%C5%82ek_podlaski,58/most_wanted_products_sp._z_o.o.-zduiti_azt.html",
+"https://panoramafirm.pl/podlaskie,bia%C5%82ostocki,kr%C3%B3lowy_most,11/parafia_prawoslawna_sw.anny_w_krolowym_moscie-oxgjlh_aswal.html",
+"https://panoramafirm.pl/podlaskie,wysokomazowiecki,ciechanowiec,parkowa,2a/projektowanie_i_nadzor_budowy_drog_i_mostow_zbigniew_radziszewski-zlyudz_mlp.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,produkcyjna,102/przedsiebiorstwo_eksploatacji_ulic_i_mostow_sp._z_o.o.-pxfpb_jro.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,wysockiego,166/przedsiebiorstwo_eksploatacji_ulic_i_mostow_sp._z_o.o._stacja_paliw-oxiisz_twa.html",
+"https://panoramafirm.pl/podlaskie,,suwa%C5%82ki,sk%C5%82odowskiej_curie,5/stowarzyszenie_inicjatyw_spolecznych_most-zrskul_zba.html",
+"https://panoramafirm.pl/podlaskie,,bia%C5%82ystok,pietkiewicza,6d_lok._71/stowarzyszenie_most_pokolen-zodkwy_zba.html",
+"https://panoramafirm.pl/podlaskie,sok%C3%B3lski,korycin,rynek,12/vita_cezary_gryko_wspolnik_spolki_cywilnej_apteka_cezary_gryko_pro_most-zsernz_e.html",
+"https://panoramafirm.pl/podlaskie,sok%C3%B3lski,ku%C5%BAnica,topolowa,2/zaklad_budowy_drog_i_mostow_edward_donejko-abadzu_jro.html",
+]
+?>
