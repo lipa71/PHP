@@ -109,6 +109,8 @@
         <a href="src/pks_email.php">pks_email</a>
         <br>
         <a href="src/szpitale_email.php">szpitale_email</a>
+        <br>
+        <a href="src/wypozyczalnie_sprzetu_budowlanego.php">wypożyczalnie_sprzętu_budowlanego</a>
     </center>
 </body>
 </html>
