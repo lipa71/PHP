@@ -111,6 +111,8 @@
         <a href="src/szpitale_email.php">szpitale_email</a>
         <br>
         <a href="src/wypozyczalnie_sprzetu_budowlanego.php">wypożyczalnie_sprzętu_budowlanego</a>
+        <br>
+        <a href="src/docieplenia.php">docieplenia</a>
     </center>
 </body>
 </html>
